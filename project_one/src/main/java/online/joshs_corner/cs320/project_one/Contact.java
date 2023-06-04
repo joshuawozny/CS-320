@@ -113,9 +113,7 @@ public final class Contact extends Entity {
 	
 	//Private method for checking if a string is a digit used to validate phone numbers
 	private boolean isDigit(String str) throws Exception {
-		char[] chars = str.toCharArray();
-		System.out.println(chars);
-        
+		char[] chars = str.toCharArray();        
 	      for (char ch : chars) {
 	            if(!Character.isDigit(ch)) return false;
 	        }

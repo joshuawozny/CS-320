@@ -9,7 +9,7 @@ package online.joshs_corner.cs320.project_one;
  */
 abstract class Entity {
 	/*
-    The contact object shall have a required unique contact ID String that cannot be longer than 10 characters. The contact ID shall not be null and shall not be updatable.
+    All objects shall have a required unique ID String that cannot be longer than 10 characters. The contact ID shall not be null and shall not be updatable.
 	 */
 	private final String id;  //final makes it immutable
 	
